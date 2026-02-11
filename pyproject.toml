@@ -18,7 +18,7 @@ classifiers = [
 ]
 
 dependencies = [
-    "torch>=2.8.0",
+    "torch>=2.9.0",
     "torchvision>=0.22.0",
     "diffusers>=0.33.1",
     "xformers>=0.0.30",
@@ -31,7 +31,7 @@ dependencies = [
     "peft>=0.7.1",
     "open3d>=0.19.0",
     "trimesh>=4.6.1",
-    "nunchaku @ https://github.com/mit-han-lab/nunchaku/releases/download/v0.2.0/nunchaku-0.2.0+torch2.8-cp312-cp312-linux_x86_64.whl",
+    "nunchaku @ https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1+cu12.8torch2.9-cp312-cp312-linux_x86_64.whl",
     "viser @ git+https://github.com/ZiYang-xie/viser.git", # Modified viser to show double-side texture mesh to better view the scene
     "UniK3D @ git+https://github.com/lpiccinelli-eth/UniK3D.git"
 ]
